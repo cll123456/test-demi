@@ -17,7 +17,7 @@
   },
   "include": [
     "packages/**/*"
-  ],
+, "docs", "dist"  ],
   "exclude": [
     "node_modules",
     "packages/exampleV3",
