@@ -1,11 +1,16 @@
 {
-  "name": "@test-demi/slideValidator",
+  "name": "vue-login-slide-validator",
   "version": "1.0.0",
-  "private": false,
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "unpkg": "dist/index.global.js",
   "types": "dist/index.d.ts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cll123456/test-demi.git"
+  },
+  "author": "twinkle",
   "exports": {
     ".": {
       "import": "./dist/index.esm.js",
@@ -16,7 +21,6 @@
       "require": "./dist/index.css"
     }
   },
-  "license": "MIT",
   "dependencies": {
     "vue-demi": "^0.11.4"
   },
