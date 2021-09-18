@@ -1,0 +1,47 @@
+{
+  "name": "@test-demi/monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "packages/slideValidator",
+    "packages/exampleV3"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev:3": "vue-demi-switch 3 && yarn workspace exampleV3 run dev",
+    "test:2": "vue-demi-switch 2 vue2 && jest",
+    "test:3": "vue-demi-switch 3 && yarn workspace exampleV3 run test",
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "vue-demi": "^0.11.4"
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^1.1.4"
+  },
+  "peerDependenciesMeta": {
+    "@vue/composition-api": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@types/node": "^16.9.0",
+    "@typescript-eslint/eslint-plugin": "^4.31.0",
+    "@typescript-eslint/parser": "^4.31.0",
+    "babel-jest": "^27.2.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^7.17.0",
+    "jest": "^27.2.0",
+    "rollup": "^2.56.3",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-dts": "^4.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.4.2",
+    "vue": "^3.2.11",
+    "vue2": "npm:vue@2.6.14"
+  }
+}

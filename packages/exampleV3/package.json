@@ -1,0 +1,22 @@
+{
+  "name": "exampleV3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@test-demi/slideValidator": "1.0.0",
+    "vue": "^3.2.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.6.2",
+    "@vue/compiler-sfc": "^3.2.11",
+    "@vue/test-utils": "^2.0.0-rc.14",
+    "vite": "^2.5.6",
+    "vue-tsc": "^0.3.0"
+  }
+}

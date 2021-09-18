@@ -1,0 +1,37 @@
+.vue-login_slide-container {
+  position: relative;
+  border-radius: 4px;
+}
+
+.vue-login_slider-container {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 4px;
+  cursor: move;
+  z-index: 10;
+  background-color: aliceblue;
+  border: 1px solid #f3efef;
+  box-sizing: border-box;
+}
+
+.vue-login_slider-success-bg{
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.vue-login_inner-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
